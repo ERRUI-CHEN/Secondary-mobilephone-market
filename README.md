@@ -43,6 +43,7 @@
   9.post接口application/x-www-form-urlencoded需要添加参数才能调用
   10.sourcetree分支上传问题
   11.错误：does not have a method "showToast" to handle event "tap".
+  12.uniapp 开发微信小程序 app.json未找到问题：使用微信开发者工具打开小程序项目的时候，选择【mp-weixin】文件夹，让app.json文件暴露在最外层。"miniprogramRoot":"./unpackage/dist/dev/mp-weixin"
   ```
 
 ## 1.index主页

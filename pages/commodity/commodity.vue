@@ -17,7 +17,7 @@
 		<view class="baozhang">
 			<view class="chengnuo">
 				<view class="zuo">
-					<image src="../../static/commodity/bao1.png" mode=""></image>
+					<image src="https://gitee.com/SSSSChange/image/raw/master/%E4%BA%8C%E6%89%8B%E6%89%8B%E6%9C%BA/commodity/bao1.png" mode=""></image>
 				</view>
 				<view class="demo" >{{info.shopName}}</view>
 				
@@ -41,7 +41,7 @@
 		</view>
 		<view class="good_detail">
 			<view class="content">
-				<image src="../../static/commodity/tu1.png" style="width: 750rpx;" mode="widthFix"></image>
+				<image src="https://gitee.com/SSSSChange/image/raw/master/%E4%BA%8C%E6%89%8B%E6%89%8B%E6%9C%BA/commodity/tu1.png" style="width: 750rpx;" mode="widthFix"></image>
 			</view>
 		</view>
 		<view class="hot_wenti">
@@ -63,7 +63,7 @@
 		<!--购买提交-->
 		<view class="goods_nav" v-for="item in goods" :key="item.skuCode">
 			<view class="tu" @click="tel"><!--连接到微信-->
-				<image class="img" src="../../static/commodity/kefu.jpg" style="width: 50rpx;height: 50rpx;"></image>
+				<image class="img" src="https://gitee.com/SSSSChange/image/raw/master/%E4%BA%8C%E6%89%8B%E6%89%8B%E6%9C%BA/commodity/kefu.jpg" style="width: 50rpx;height: 50rpx;"></image>
 				<view class="ke" >客服</view>
 			</view>
 			<text>￥{{info.sellingPrice}}</text>
